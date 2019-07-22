@@ -26,7 +26,7 @@ build a complete system in each Block to allow you to jump around to the things 
 - Project Setup, Core Concepts and What To Expect (Block 0)*
 - AWS with Dedicated Server Manager (Block 1)
 - Customizable Weapon System (Block 2)
-- Weapon Customization (Block 3)
+- Extened Weapon Customization and QOL for Designers (Block 3)
 - Complex Vital System (Block 4)
 - Kill Feed and Score-Card (Block 5)
 - Interactable Environment Toys (Jump Pad, Zip-Line) (Block 6)*
