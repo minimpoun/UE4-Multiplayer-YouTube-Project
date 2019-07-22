@@ -26,7 +26,7 @@ build a complete system in each Block to allow you to jump around to the things 
 - Project Setup, Core Concepts and What To Expect (Block 0)*
 - AWS with Dedicated Server Manager (Block 1)
 - Customizable Weapon System (Block 2)
-- Extened Weapon Customization and QOL for Designers (Block 3)*
+- Extended Weapon Customization and QOL for Designers (Block 3)*
 - Complex Vital System (Block 4)
 - Kill Feed and Score-Card (Block 5)
 - Interactable Environment Toys (Jump Pad, Zip-Line) (Block 6)*
@@ -37,7 +37,7 @@ build a complete system in each Block to allow you to jump around to the things 
 - Complex Game UI System (Block 11)
 - Custom SQL Backend with Profiles and Match History (Block 12)
 - Game Client/Launcher with auto-patcher and login system (Block 13)
-- Expanding Character Movement, Polishing, and Optimzation/Profiler (Block 14)
+- Expanding Character Movement, Polishing, and Optimization/Profiler (Block 14)
 - Replication Graph (?)
 - Steam Integration with Friends (?)
 
