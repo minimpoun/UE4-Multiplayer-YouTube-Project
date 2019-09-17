@@ -9,7 +9,7 @@ This might change in the future, we'll see.
 All resources required to follow along with this tutorial series will be provided in the description
 of each video. There will also be a master list in this Repo.
 
-This series is completely free and will always be free. If you ever find this series or any of the content used in this series on any paid platform or locked behind a pay wall please report it to me as I did not upload it there. With the expection of my person Patron page. Becoming a Patron is in no way required for you to get everything out of this series, however it's a way to show support for the amount of time I've put into developing this series.
+This series is completely free and will always be free. If you ever find this series or any of the content used in this series on any paid platform or locked behind a pay wall please report it to me as I did not upload it there. With the expection of my personal Patron page. Becoming a Patron is in no way required for you to get everything out of this series, however it's a way to show support for the amount of time I've put into developing this series.
 
 # Patreon
 
@@ -24,7 +24,7 @@ build a complete system in each Block to allow you to jump around to the things 
 
 #### Blocks:
 - Project Setup, Core Concepts and What To Expect (Block 0)*
-- AWS with Dedicated Server Manager (Block 1)
+- AWS and GameLift (Block 1)
 - Customizable Weapon System (Block 2)
 - Extended Weapon Customization and QOL for Designers (Block 3)*
 - Complex Vital System (Block 4)
