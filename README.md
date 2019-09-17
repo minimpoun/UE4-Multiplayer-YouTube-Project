@@ -15,6 +15,8 @@ This series is completely free and will always be free. If you ever find this se
 
 # [Support Discord](https://discord.gg/KR3kxTV)
 
+## You can see the progress on this project [here](https://github.com/minimpoun/UE4-Multiplayer-YouTube-Project/blob/master/PROGRESS.md)
+
 #### How will the series be broken up?
 The series will consist of 15 confirmed Blocks (possibly more in the future) that cover each of the topics described below.
 Each Block will build off the previous Block; however it will be designed so that we
