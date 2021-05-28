@@ -66,4 +66,4 @@ build a complete system in each Block to allow you to jump around to the things 
 - Basic Understanding of UE4 Including Blueprints
 - Fundamental Understanding of OOP and C++
 - Basic Understanding of Network Replication and Server-Client Model
-- Source Built UE4.23 (Covered in Block 0)
+- Source Built UE4.26 (Covered in Block 0)
