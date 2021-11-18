@@ -8,6 +8,27 @@ public class SurvivalGame : ModuleRules
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 
-		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "HeadMountedDisplay" });
+		PublicDependencyModuleNames.AddRange(new string[]
+		{
+			"Core",
+			"CoreUObject",
+			"Engine",
+			"InputCore",
+			"Json",
+			"JsonUtilities",
+			"HTTP",
+			"GameplayAbilities",
+			"GameplayTags",
+			"GameplayTasks"
+		});
+		
+		PrivateDependencyModuleNames.AddRange(new string[]
+		{
+			"OnlineSubsystemUtils",
+			"OnlineSubsystemNull",
+			"UMG",
+			"Slate",
+			"SlateCore"
+		});
 	}
 }

@@ -4,15 +4,16 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/GameModeBase.h"
-#include "SurvivalGameGameMode.generated.h"
+#include "TBaseGameMode.generated.h"
 
 UCLASS(minimalapi)
-class ASurvivalGameGameMode : public AGameModeBase
+class ATBaseGameMode : public AGameModeBase
 {
 	GENERATED_BODY()
 
 public:
-	ASurvivalGameGameMode();
+	
+	ATBaseGameMode();
 };
 
 
