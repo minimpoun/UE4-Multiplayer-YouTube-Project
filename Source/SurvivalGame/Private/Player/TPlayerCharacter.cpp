@@ -2,6 +2,8 @@
 
 #include "Player/TPlayerCharacter.h"
 
+#include "AbilitySystem/TAbilitySystemComponent.h"
+
 #include "Camera/CameraComponent.h"
 #include "Components/CapsuleComponent.h"
 #include "Components/InputComponent.h"
@@ -59,6 +61,21 @@ void ATPlayerCharacter::SetupPlayerInputComponent(class UInputComponent* PlayerI
 	PlayerInputComponent->BindAxis("LookUpRate", this, &ATPlayerCharacter::LookUpAtRate);
 }
 
+void ATPlayerCharacter::PossessedBy(AController* NewController)
+{
+	Super::PossessedBy(NewController);
+}
+
+void ATPlayerCharacter::OnRep_PlayerState()
+{
+	Super::OnRep_PlayerState();
+}
+
+void ATPlayerCharacter::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const
+{
+	Super::GetLifetimeReplicatedProps(OutLifetimeProps);
+}
+
 void ATPlayerCharacter::TurnAtRate(float Rate)
 {
 	AddControllerYawInput(Rate * BaseTurnRate * GetWorld()->GetDeltaSeconds());
@@ -67,6 +84,11 @@ void ATPlayerCharacter::TurnAtRate(float Rate)
 void ATPlayerCharacter::LookUpAtRate(float Rate)
 {
 	AddControllerPitchInput(Rate * BaseLookUpRate * GetWorld()->GetDeltaSeconds());
+}
+
+UAbilitySystemComponent* ATPlayerCharacter::GetAbilitySystemComponent() const
+{
+	return AbilitySystemComponent.Get();
 }
 
 void ATPlayerCharacter::MoveForward(float Value)
