@@ -1,7 +1,8 @@
 #include "Player/TPlayerState.h"
 
-#include "AbilitySystem/PlayerAttributes.h"
+#include "AbilitySystem/Attributes/PlayerAttributes.h"
 #include "AbilitySystem/TAbilitySystemComponent.h"
+#include "AbilitySystem/Attributes/AmmoAttributes.h"
 
 ATPlayerState::ATPlayerState()
 {
@@ -9,6 +10,7 @@ ATPlayerState::ATPlayerState()
 	AbilitySystemComponent->SetReplicationMode(EGameplayEffectReplicationMode::Mixed);
 
 	PlayerAttributes = CreateDefaultSubobject<UPlayerAttributes>(TEXT("PlayerAttributes"));
+	AmmoAttributes = CreateDefaultSubobject<UAmmoAttributes>(TEXT("AmmoAttributes"));
 }
 
 UAbilitySystemComponent* ATPlayerState::GetAbilitySystemComponent() const

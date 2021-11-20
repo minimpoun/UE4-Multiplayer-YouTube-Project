@@ -75,3 +75,8 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+# Ignore the Weapons folder because it contains marketplace content 
+Content/Art/Weapons/*
+Content/Scifi_Arsenal_Vol1/*
+Content/Scifi_Arsenal_Vol2/*

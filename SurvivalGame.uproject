@@ -7,7 +7,22 @@
 		{
 			"Name": "SurvivalGame",
 			"Type": "Runtime",
-			"LoadingPhase": "Default"
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"SurvivalGameLoadingScreen",
+				"GameplayAbilities"
+			]
+		},
+		{
+			"Name": "SurvivalGameLoadingScreen",
+			"Type": "Runtime",
+			"LoadingPhase": "PreLoadingScreen"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "GameplayAbilities",
+			"Enabled": true
 		}
 	]
 }

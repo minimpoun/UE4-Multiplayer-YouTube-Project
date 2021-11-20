@@ -3,3 +3,7 @@
 ATBaseGameMode::ATBaseGameMode()
 {
 }
+
+void ATBaseGameMode::PlayerDied(AController* Controller)
+{
+}

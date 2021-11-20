@@ -14,6 +14,8 @@ class ATBaseGameMode : public AGameModeBase
 public:
 	
 	ATBaseGameMode();
+
+	void PlayerDied(AController* Controller);
 };
 
 

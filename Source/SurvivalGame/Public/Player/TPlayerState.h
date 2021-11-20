@@ -6,6 +6,7 @@
 
 #include "TPlayerState.generated.h"
 
+class UAmmoAttributes;
 class UPlayerAttributes;
 class UTAbilitySystemComponent;
 UCLASS()
@@ -24,11 +25,16 @@ public:
 		return AbilitySystemComponent;
 	}
 
-	[[nodiscard]] UPlayerAttributes*& GetPlayerAttributes()
+	[[nodiscard]] UPlayerAttributes*& GetPlayerAttributeSet()
 	{
 		return PlayerAttributes;
 	}
 
+	[[nodiscard]] UAmmoAttributes*& GetAmmoAttributeSet()
+	{
+		return AmmoAttributes;
+	}
+	
 private:
 
 	UPROPERTY()
@@ -36,4 +42,7 @@ private:
 
 	UPROPERTY()
 	UPlayerAttributes* PlayerAttributes;
+
+	UPROPERTY()
+	UAmmoAttributes* AmmoAttributes;
 };
