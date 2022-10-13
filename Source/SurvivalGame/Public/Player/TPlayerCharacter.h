@@ -78,8 +78,8 @@ public:
 	
 	ATPlayerCharacter(const FObjectInitializer& ObjectInitializer);
 
-	FORCEINLINE class USpringArmComponent* GetCameraBoom() const { return CameraBoom; }
-	FORCEINLINE class UCameraComponent* GetFollowCamera() const { return FollowCamera; }
+	FORCEINLINE USpringArmComponent* GetCameraBoom() const { return CameraBoom; }
+	FORCEINLINE UCameraComponent* GetFollowCamera() const { return FollowCamera; }
 
 	virtual UAbilitySystemComponent* GetAbilitySystemComponent() const override;
 
@@ -98,7 +98,7 @@ public:
 
 	UPROPERTY(BlueprintAssignable)
 	FOnCharacterDied OnCharacterDied;
-	
+
 	// Attribute Helpers
 public:
 
@@ -136,7 +136,7 @@ public:
 
 	UFUNCTION(BlueprintPure, Category = "Attributes")
 	float GetMaxArmor() const;
-	
+
 protected:
 
 	// Cached gameplay tags
